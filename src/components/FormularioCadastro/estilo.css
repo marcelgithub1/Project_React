@@ -5,21 +5,24 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 12px 40px;
+    padding: 12px 40px;    
   }
   .form-cadastro_input {
     margin-top: 8px;
+    margin-bottom: 10px;
     padding: 4px;
     border: none;
     background-color: var(--fundo-detalhes);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: #00000060 5px 5px 5px;
   }
   
   .form-cadastro_submit {
     align-self: flex-end;
     width: 30%;
-    background-color: var(--secundaria);
+    background-color: rgba(0, 174, 255, 0.815)/*var(--secundaria)*/;
     color: white;
     font-weight: 400;
   }

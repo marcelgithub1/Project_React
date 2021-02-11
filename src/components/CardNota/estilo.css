@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     box-shadow: 0 0 4px rgba(0,0,0, 0.3);
     padding: 16px;
+    box-shadow: #00000060 5px 5px 5px;
 }
 
 .card-nota_cabeçalho {
